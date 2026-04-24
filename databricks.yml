@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for rag_end_to_end_databricks.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: rag_end_to_end_databricks
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-36a19f13-9a9e.cloud.databricks.com
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://dbc-36a19f13-9a9e.cloud.databricks.com
